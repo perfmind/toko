@@ -1,0 +1,27 @@
+{
+    "name": "tugas/toko",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "app/"
+        ],
+        "files": [
+            "config/database.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "M. Sulton Hasanuddin",
+            "email": "hi.sulton@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/routing": "^7.0",
+        "symfony/http-foundation": "^7.0",
+        "ext-pdo": "*"
+    }
+}
